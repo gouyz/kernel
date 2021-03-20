@@ -1,0 +1,22 @@
+use_frameworks!
+platform :ios, "11.0"
+
+target 'kernel' do
+
+pod 'SnapKit' ## 自动布局 https://github.com/SnapKit/SnapKit
+pod 'Alamofire' ## 网络请求, swift版的AFN  https://github.com/Alamofire/Alamofire
+pod 'Kingfisher' ## 轻量级的SDWebImage https://github.com/onevcat/Kingfisher
+
+pod 'SwiftyJSON'  ##JSON 解析类 https://github.com/SwiftyJSON/SwiftyJSON
+pod 'MJRefresh'    #快速集成下拉刷新、上拉更多 https://github.com/CoderMJLee/MJRefresh
+pod 'IQKeyboardManagerSwift'  ## #解决键盘弹起遮挡 https://github.com/hackiftekhar/IQKeyboardManager
+pod 'MBProgressHUD', '~> 1.2.0' # 实现多种加载效果 https://github.com/jdg/MBProgressHUD
+pod 'BMLongPressDragCellCollectionView' #拖拽重排功能 https://github.com/liangdahong/BMLongPressDragCellCollectionView
+
+pod 'DKImagePickerController' #图片选择器 https://github.com/zhangao0086/DKImagePickerController
+pod 'SKPhotoBrowser' #图片浏览器 https://github.com/suzuki-0000/SKPhotoBrowser
+
+pod 'JXSegmentedView' #所有主流APP分类切换滚动视图 https://github.com/pujiaxin33/JXSegmentedView
+pod 'JXPagingView/Paging' #类似微博主页、简书主页等效果。多页面嵌套，既可以上下滑动，也可以左右滑动切换页面。支持HeaderView悬浮、支持下拉刷新、上拉加载更多 https://github.com/pujiaxin33/JXPagingView
+end
+
